@@ -56,8 +56,8 @@ export const projects = [
     {
         title: "L-regi",
         description: "Food item listing and QR-based mobile ordering system enhancing hotel operations.",
-        tech: ["React.js", "Node.js", "Tailwind CSS", "REST API"],
-        link: "https://crm.lregi.jp",
+        tech: ["React Native", "Node.js", "Express.js", "MongoDB"],
+        // link: "https://crm.lregi.jp",
         isPublic: true,
     },
     {
