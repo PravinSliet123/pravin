@@ -12,7 +12,7 @@ const Footer = () => {
                 </div>
 
                 <p className="flex items-center gap-2">
-                    Built with <span className="text-primary text-base">♥</span> in India
+                    {/* Built with <span className="text-primary text-base">♥</span> in India */}
                 </p>
             </div>
         </footer>

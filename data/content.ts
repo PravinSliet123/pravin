@@ -94,7 +94,7 @@ export const projects = [
         tech: ["Next.js", "TypeScript", "Node.js", "REST API", "Tailwind CSS"],
         isPublic: true,
         badge: "Live Project",
-        link: "https://sora-portal-app.vercel.app",
+        link: "https://realestatejapan.jp/",
     },
 
 ];
