@@ -4,7 +4,7 @@ import SectionWrapper from "@/components/Layout/SectionWrapper";
 import Timeline from "@/components/Experience/Timeline";
 import ProjectCard from "@/components/Projects/ProjectCard";
 import Skills from "@/components/Skills";
-import Contact from "@/components/Contact";
+// import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ThemeToggle from "@/components/ThemeToggle";
 import Image from "next/image";
@@ -104,14 +104,14 @@ export default function Home() {
         </div>
       </SectionWrapper>
 
-      <SectionWrapper
+      {/* <SectionWrapper
         id="contact"
         title="Get In Touch"
         subtitle="Ready to discuss your next project? Drop a message below."
         className="bg-secondary/20"
       >
         <Contact />
-      </SectionWrapper>
+      </SectionWrapper> */}
 
       <Footer />
     </main>

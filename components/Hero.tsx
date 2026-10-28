@@ -65,12 +65,12 @@ const Hero = () => {
                     >
                         View Projects
                     </Link>
-                    <Link
+                    {/* <Link
                         href="#contact"
                         className="w-full sm:w-auto px-8 py-4 glass rounded-2xl font-bold hover:bg-secondary transition-all hover:-translate-y-1"
                     >
                         Hire Me
-                    </Link>
+                    </Link> */}
                 </motion.div>
 
                 <motion.div

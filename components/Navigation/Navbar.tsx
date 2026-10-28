@@ -10,7 +10,7 @@ const navLinks = [
     { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
-    { name: "Contact", href: "#contact" },
+    // { name: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
@@ -49,12 +49,12 @@ const Navbar = () => {
                             {link.name}
                         </Link>
                     ))}
-                    <Link
+                    {/* <Link
                         href="#contact"
                         className="px-5 py-2.5 bg-primary text-white rounded-full text-sm font-medium hover:opacity-90 transition-opacity"
                     >
                         Hire Me
-                    </Link>
+                    </Link> */}
                 </div>
 
                 {/* Mobile Toggle */}
@@ -98,13 +98,13 @@ const Navbar = () => {
                                 {link.name}
                             </Link>
                         ))}
-                        <Link
+                        {/* <Link
                             href="#contact"
                             className="w-full text-center px-5 py-3 bg-primary text-white rounded-xl text-lg font-medium"
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
                             Hire Me
-                        </Link>
+                        </Link> */}
                     </motion.div>
                 )}
             </AnimatePresence>

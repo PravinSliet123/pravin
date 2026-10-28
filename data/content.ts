@@ -3,7 +3,7 @@ export const personalInfo = {
   title: "Fullstack Developer",
   location: "Hyderabad, India",
   email: "pravin.cse17@gmail.com",
-  linkedin: "https://www.linkedin.com/in/pravincse17",
+  linkedin: "https://www.linkedin.com/in/pravin-kumar-450298447/",
   headline:
     "Fullstack Developer Building Scalable & High-Performance Applications",
   github: "https://github.com/PravinSliet123",
@@ -24,25 +24,27 @@ export const aboutMe = {
 
 export const experiences = [
   {
-    company: "SHARVIL Business Groups",
-    role: "Fullstack Developer",
-    period: "June 2023 – Present",
+    company: "Techelogy eSolutions",
+    role: "Full-Stack Developer",
+    period: "2023 – Present",
     location: "Remote, India",
     points: [
-      "Designed and delivered end-to-end full-stack features using React.js and Node.js.",
-      "Improved system performance by 25% through Redis-based caching and API optimization.",
-      "Managed Docker-based deployments, reducing development cycle time by 30%.",
-      "Contributed to 25% improvement in on-time releases.",
+      "Design, build, and maintain full-stack web and mobile applications using React.js, Next.js, Node.js, Express, TypeScript, MongoDB, and MySQL.",
+      "Develop REST APIs, authentication flows, database schemas, and business workflows; integrate frontend interfaces with backend services.",
+      "Build real-estate platforms and agent portals, inventory and supply-chain workflows, content-driven platforms, sales funnels, and mobile application features.",
+      "Improve application responsiveness and reliability through reusable components, API workflow optimization, caching, and structured error handling.",
+      "Manage production deployments and application processes using Docker, PM2, Git, and environment-specific configuration.",
+      "Own features end to end, from requirement clarification and implementation through deployment, troubleshooting, and maintenance.",
     ],
   },
   {
-    company: "SHARVIL Business Groups",
-    role: "Frontend Developer Intern",
-    period: "Feb 2023 – June 2023",
+    company: "Self-Employed",
+    role: "Freelance Developer",
+    period: "June 2022 – 2023",
     location: "Remote",
     points: [
-      "Built reusable UI components and frontend features using React.js and JavaScript.",
-      "Collaborated with senior developers to master low-level and high-level design concepts.",
+      "Built reusable React.js UI components and frontend features using JavaScript and API integrations for freelance clients.",
+      "Delivered client projects end to end, from requirement gathering and implementation through deployment.",
     ],
   },
 ];
